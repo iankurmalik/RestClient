@@ -55,6 +55,16 @@ Karate is equally good and am currently using it for API testing
 
 For C#:
 
-RestSharp is there which provides a good interfacing with API.
+RestSharp is there which provides a good interfacing with API.y.
+
+Lastly, the weather API are not really REST compliant. It only provided the access for limited resource with historical data only. 
+
+Hence, you may see a lot of if else which could have been avoided if APIs were  built well and provided the data in accordance.
+
+I understand these are open source API, so no complaints :)
+
+Cheers!
+
+
 
 
