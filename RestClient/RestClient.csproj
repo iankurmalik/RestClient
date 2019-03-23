@@ -45,12 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WeatherDataAdapter.cs" />
-    <Compile Include="HttpRestClient.cs" />
-    <Compile Include="IRestClient.cs" />
-    <Compile Include="IWeatherAdapter.cs" />
+    <Compile Include="Weather\WeatherDataAdapter.cs" />
+    <Compile Include="RestClient\HttpRestClient.cs" />
+    <Compile Include="RestClient\IRestClient.cs" />
+    <Compile Include="Weather\IWeatherAdapter.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties.cs" />
+    <Compile Include="Constant\Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

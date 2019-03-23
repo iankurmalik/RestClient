@@ -28,8 +28,7 @@ namespace RestClient
                 JObject jsonObj = JObject.Parse(json);
                 //IList<JToken> results = jsonObj["list"].Children().ToList();
                 var list = from c in jsonObj["list"]
-                           select c;
-                
+                           select c;            
                 foreach (var data in list)
                 {
                     if (String.IsNullOrEmpty(distinctDate))
@@ -76,10 +75,25 @@ namespace RestClient
                     foreach (var date in lstSunnyDays)
                     {
                         Console.WriteLine(date + " " + Convert.ToDateTime(date).DayOfWeek);
-                    }
-                    Console.Read();
-
+                    }                   
                 }
+                else
+                {
+                    Console.WriteLine("Oops sunny days in next " + Properties.daysConsiderationForWeatherForecast + " days!");
+                }
+                if (lstTwentyDegreeAboveDays.Count > 0)
+                {
+                    Console.WriteLine("Hola! Here are few 20 degrees and above days in next " + Properties.daysConsiderationForWeatherForecast + " days");
+                    foreach (var date in lstTwentyDegreeAboveDays)
+                    {
+                        Console.WriteLine(date + " " + Convert.ToDateTime(date).DayOfWeek);
+                    }                 
+                }
+                else
+                {
+                    Console.WriteLine("Oops no beach days(above 20 degrees) in next " + Properties.daysConsiderationForWeatherForecast + " days!");
+                }
+                Console.Read();
             }
             catch(Exception ex)
             {

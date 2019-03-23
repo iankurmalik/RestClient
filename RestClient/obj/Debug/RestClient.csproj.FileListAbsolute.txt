@@ -15,7 +15,6 @@ C:\Users\anmalik\Downloads\RestClient\RestClient\bin\Debug\RestClient.pdb
 C:\Users\anmalik\Downloads\RestClient\RestClient\bin\Debug\Newtonsoft.Json.dll
 C:\Users\anmalik\Downloads\RestClient\RestClient\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\anmalik\Downloads\RestClient\RestClient\bin\Debug\Newtonsoft.Json.xml
-C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csprojAssemblyReference.cache
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csproj.CoreCompileInputs.cache
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csproj.CopyComplete
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.exe
