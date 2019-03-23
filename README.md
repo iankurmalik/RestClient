@@ -24,7 +24,7 @@ git clone https://github.com/iankurmalik/RestClient
 
 it will ask for your git credentials. If you don't have a git account, create one and then try cloning this repo
 
-once cloned, go to the folder and click on RestClient.sol. It will open the project in Visual studio
+Once cloned, go to the folder and click on RestClient.sln. It will open the project in Visual studio
 
 # I have chosen it to be a console app to keep it concise
 
