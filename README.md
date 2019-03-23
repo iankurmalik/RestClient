@@ -30,10 +30,10 @@ Once cloned, go to the folder and click on RestClient.sln. It will open the proj
 
 # Didn't add DI for the sake of brevity. I like Ninject for DI to resolve the dependencies at runtime.
 
-***************Unit Testing**************8
+***************Unit Testing**************
 I have not included unit test cases just for the sake of brevity
 
-My approaCH FOR UNIT TEST WILL BE MOCKING THE HTTPCLIENT CLASS and check getData methode in weather adapter class.
+My approach FOR UNIT TEST WILL BE MOCKING THE HTTPCLIENT CLASS and check getData method in weather adapter class.
 
 I can produce these if needed.
 
@@ -62,6 +62,8 @@ Lastly, the weather API are not really REST compliant. It only provided the acce
 Hence, you may see a lot of if else which could have been avoided if APIs were  built well and provided the data in accordance.
 
 I understand these are open source API, so no complaints :)
+
+Program.cs is not following SOLID, so excuse me for that :)
 
 Cheers!
 
