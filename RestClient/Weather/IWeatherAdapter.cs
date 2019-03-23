@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RestClient
 {
-    interface IWeatherAdapter
+    public interface IWeatherAdapter
     {
         string GetWeatherData(Uri url );
     }

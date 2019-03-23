@@ -15,7 +15,7 @@ namespace RestClient
         }
         public string GetWeatherData(Uri path)
         {
-          string response=  _restClient.Get(path);
+            string response=  _restClient.Get(path);
             return response;
         }
     }

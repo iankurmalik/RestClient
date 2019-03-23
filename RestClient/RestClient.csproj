@@ -45,6 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\UriBuilderModel.cs" />
+    <Compile Include="Utils\UriBuilderRest.cs" />
+    <Compile Include="Utils\Utility.cs" />
     <Compile Include="Weather\WeatherDataAdapter.cs" />
     <Compile Include="RestClient\HttpRestClient.cs" />
     <Compile Include="RestClient\IRestClient.cs" />
@@ -58,9 +61,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="Resources\" />
-    <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

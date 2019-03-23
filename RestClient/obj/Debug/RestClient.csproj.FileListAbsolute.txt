@@ -19,3 +19,4 @@ C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csproj.Cor
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csproj.CopyComplete
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.exe
 C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.pdb
+C:\Users\anmalik\Downloads\RestClient\RestClient\obj\Debug\RestClient.csprojAssemblyReference.cache
