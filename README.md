@@ -63,9 +63,8 @@ Hence, you may see a lot of if else which could have been avoided if APIs were  
 
 I understand these are open source API, so no complaints :)
 
-Program.cs is not following SOLID, so excuse me for that :)
-
-Cheers!
+Cheers
+Ankur
 
 
 
