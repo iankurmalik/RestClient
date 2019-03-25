@@ -31,7 +31,9 @@ Once cloned, go to the folder and click on RestClient.sln. It will open the proj
 # Didn't add DI for the sake of brevity. I like Ninject for DI to resolve the dependencies at runtime.
 
 ***************Unit Testing**************
-I have added unit test cases.  Used Xunit framework to Arrange, Act and Assert
+I have added sample unit test cases. 
+**************End************************
+Used Xunit framework to Arrange, Act and Assert
 Moq to mock the dependencies
 Unit test is just checking for the non empty reesult fornow.
 #***********************Json manipulation/querying and filtering**************************
